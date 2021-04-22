@@ -48,7 +48,7 @@ function animatePress(currentColor) {
 var pressed = false;
 var level = 0;
 
-$(document).keydown(function(){
+$(document).click(function(){
   if(!pressed){
     nextSequence();
     pressed = true;
